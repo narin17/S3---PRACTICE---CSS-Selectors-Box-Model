@@ -1,0 +1,41 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.btn {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+.btn-green {
+    color: rgb(224, 224, 231);
+    background-color: rgb(70, 206, 70);
+}
+.btn-red {
+    background-color: red;
+    color: azure;
+}
+.btn-orange {
+    background-color: orange;
+    color: black;
+}
+
+.btn-green:hover{
+    background-color: yellowgreen;
+}
+
+.btn-red:hover{
+    background-color: rgb(139, 53, 80);
+}
+
+.btn-orange:hover{
+    background-color: rgb(200, 126, 126);
+}
